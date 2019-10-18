@@ -1,17 +1,19 @@
+
 <div class="container">
 <h1>Eat-Da-Burger!</h1>
 
-<ul>
+<ul id="notDevoured">
   {{#each burgers}}
-    {{#unless devoured}}
+    {{#unless this.devoured}}
       {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<ul>
+<h2>Devoured Burgers</h2>
+<ul id="isDevoured">
   {{#each burgers}}
-    {{#if devoured}}
+    {{#if this.devoured}}
       {{> burgers/burger-block devoured=false}}
     {{/if}}
   {{/each}}
@@ -36,3 +38,4 @@
 
 <p>Enter a burger you would like to eat, click the 'Add Burger' button.</p>
 </div>
+
