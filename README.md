@@ -16,7 +16,7 @@ Eat-Da-Burger was designed to demonstrate basic CRUD (Create, Read, Update, Dele
 * Handlebars.js
 
 ## Contact
-*jlynnraz@gmail.com
+* jlynnraz@gmail.com
 * [LinkedIn](https://www.linkedin.com/in/jaimee-razee/)
 * [Portfolio](https://jlynnraz.github.io/Portfolio2/)
 
