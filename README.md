@@ -8,6 +8,7 @@ Eat-Da-Burger was designed to demonstrate basic CRUD (Create, Read, Update, Dele
 * Fork It
 * Clone It
 * Run NPM Install
+* Or click [HERE](https://fast-harbor-46897.herokuapp.com/) to run the live demo
 
 ## Technologies
 * Node.js
