@@ -17,8 +17,8 @@ Eat-Da-Burger was designed to demonstrate basic CRUD (Create, Read, Update, Dele
 
 ## Code Sample
 
-*Here is a sample of inner workings of the basic CRUD functions:
-'''
+Here is a sample of the basic CRUD operations:
+~~~
 // Import the ORM to create functions that will interact with the database.
 var orm = require("../config/orm.js");
 
@@ -48,7 +48,7 @@ var burger = {
 
 // Export the database functions for the controller (catsController.js).
 module.exports = burger;
-'''
+~~~
 
 ## Contact
 * jlynnraz@gmail.com
